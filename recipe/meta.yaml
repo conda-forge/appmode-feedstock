@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  noarch: python
+  number: 1
+  # noarch: python # suffers from https://github.com/conda/conda-build/issues/2357
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:

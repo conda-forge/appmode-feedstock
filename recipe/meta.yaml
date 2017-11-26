@@ -1,6 +1,6 @@
 {% set name = "appmode" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "067d2069a074d59c3a93cf1b5e8c72a359d4316c55715a26cba4f5a0044be9d5" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "e0703e3ee2a616db79c1f7b465dab05385e41a7b6d5d6ad9f9aaa2b4a283b08d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   # noarch: python # suffers from https://github.com/conda/conda-build/issues/2357
   script: python setup.py install --single-version-externally-managed --record record.txt
 

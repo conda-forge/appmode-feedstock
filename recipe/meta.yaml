@@ -1,6 +1,6 @@
 {% set name = "appmode" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "e0703e3ee2a616db79c1f7b465dab05385e41a7b6d5d6ad9f9aaa2b4a283b08d" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "9c2cf75767b689fc3786784883d7e7c86c0b0edc188f69c1dbcc23e51efb46a8" %}
 
 package:
   name: {{ name|lower }}

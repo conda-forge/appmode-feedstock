@@ -14,14 +14,16 @@ Summary: A Jupyter extensions that turns notebooks into web applications.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/appmode-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/appmode-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/appmode-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/appmode-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/appmode-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/appmode-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/appmode-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/appmode-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/appmode-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/appmode-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/appmode-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/appmode-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/appmode/badges/version.svg)](https://anaconda.org/conda-forge/appmode)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/appmode/badges/downloads.svg)](https://anaconda.org/conda-forge/appmode)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-appmode-green.svg)](https://anaconda.org/conda-forge/appmode) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/appmode.svg)](https://anaconda.org/conda-forge/appmode) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/appmode.svg)](https://anaconda.org/conda-forge/appmode) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/appmode.svg)](https://anaconda.org/conda-forge/appmode) |
 
 Installing appmode
 ==================

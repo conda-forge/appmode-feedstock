@@ -14,9 +14,8 @@ Summary: A Jupyter extensions that turns notebooks into web applications.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/appmode-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/appmode-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/appmode-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/appmode-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/appmode-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/appmode-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/appmode-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/appmode-feedstock)
 
 Current release info
 ====================

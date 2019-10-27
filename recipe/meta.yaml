@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: appmode
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/appmode/appmode-{{ version }}.tar.gz
-  sha256: deac99adaa95e28fa8a56c072be653603cffa49dc06469701ac9c014b690e7c4
+  sha256: 46edf6ef1f20a6043275411d47d9f3ea41fef1a18d2464f8d48c75beda1e4bcd
 
 build:
   number: 1002

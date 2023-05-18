@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: appmode
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/appmode/appmode-{{ version }}.tar.gz
-  sha256: b2ac02dfb898e9035a58972ece1aa27a956d93d8ea87a13970aa3f088b45850f
+  sha256: 4d20cb8b23b9414e35b2482454772a715f93d14cbc9bfd481ca4101e734c2cf3
 
 build:
-  number: 4
+  number: 0
   # noarch: python # suffers from https://github.com/conda/conda-build/issues/2357
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 

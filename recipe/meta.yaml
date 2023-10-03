@@ -9,7 +9,7 @@ source:
   sha256: 4d20cb8b23b9414e35b2482454772a715f93d14cbc9bfd481ca4101e734c2cf3
 
 build:
-  number: 0
+  number: 1
   # noarch: python # suffers from https://github.com/conda/conda-build/issues/2357
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 

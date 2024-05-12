@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: appmode
@@ -6,21 +6,21 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/appmode/appmode-{{ version }}.tar.gz
-  sha256: 4d20cb8b23b9414e35b2482454772a715f93d14cbc9bfd481ca4101e734c2cf3
+  sha256: 120c2151caab90679f3f530cda2f4971ea859d62c8ae3767421f3689d81554d9
 
 build:
-  number: 1
-  # noarch: python # suffers from https://github.com/conda/conda-build/issues/2357
+  number: 0
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
-    - notebook >=5
+    - nbclassic >=1
   run:
-    - python
-    - notebook >=5
+    - python >=3.7
+    - nbclassic >=5
 
 test:
   imports:
@@ -30,7 +30,7 @@ about:
   home: https://github.com/oschuett/appmode
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: 'A Jupyter extensions that turns notebooks into web applications.'
 
 extra:

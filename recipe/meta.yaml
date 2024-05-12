@@ -20,7 +20,7 @@ requirements:
     - nbclassic >=1
   run:
     - python >=3.7
-    - nbclassic >=5
+    - nbclassic >=1
 
 test:
   imports:

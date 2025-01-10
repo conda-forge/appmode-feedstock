@@ -5,24 +5,26 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/a/appmode/appmode-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/a/appmode/appmode-{{ version }}.tar.gz
   sha256: 120c2151caab90679f3f530cda2f4971ea859d62c8ae3767421f3689d81554d9
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - nbclassic >=1
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - nbclassic >=1
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - appmode
 

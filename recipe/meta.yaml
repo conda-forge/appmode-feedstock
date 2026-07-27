@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: appmode
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/appmode/appmode-{{ version }}.tar.gz
-  sha256: 8a18cae324ba4e7916d94db1d6c702bf59ccd99818626cd825372548bd391692
+  sha256: 6d2c690f8ac255e614019ea38a156ee145de815c0359a90606dfdeb53dd9a1b5
 
 build:
   number: 0
@@ -17,6 +17,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
     - nbclassic >=1
   run:
     - python >={{ python_min }}
